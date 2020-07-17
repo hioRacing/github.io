@@ -74,3 +74,19 @@ color: #910000;
 .showhidden:hover .hiddentext {
   visibility: visible;
 }
+
+thead .sortable{
+  cursor: pointer;
+  background-image: url("../images/elements/both.png");
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: auto 50%;
+}
+
+thead .asc{
+  background-image: url("../images/elements/asc.png");
+}
+
+thead .desc{
+  background-image: url("../images/elements/desc.png");
+}
